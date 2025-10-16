@@ -13,7 +13,7 @@ The system accepts image uploads, generates a unique hash-based ID for each imag
 - Perform multiple checks via **parallel microservice calls**:
   - Type Check
   - Resolution Check
-  - Bandwidth Check
+  - Color Check
 - Return results immediately if cached.
 - Fail fast: returns failure if any microservice fails.
 
